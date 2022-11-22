@@ -1,0 +1,10 @@
+*** Variables ***
+${login.textbox.username}    xpath://input[contains(@name,'username')]
+${login.textbox.password}    xpath://input[contains(@name,'password')]
+${login.button.signin}    xpath://div[@class='button-text']
+${message.login.invalid_password}    xpath://span[text()="Password is not correct"]
+${message.login.invalid_mail}    xpath://span[text()="Username/Email address has not been found"]
+${button.login.forgot_password_link}    xpath://div//a[text()="Forgot your password?"]
+${textbox.login.forgot_password_link.email_textbox}    xpath://input[@name="limsabc_qa_password_form_email"]
+${message.login.forgot_password_link.email_textbox}    xpath://span[text()="This email is not registered in our database."]
+${label.loginpage.label_for_error_messages}    xpath://span[@class='field-error-text']
